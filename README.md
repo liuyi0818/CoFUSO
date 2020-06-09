@@ -9,9 +9,9 @@ Next, download the patch files (i.e. the modified kernel code files). Then copy 
 Then, you need to compile and install the modified kernel.
 ## Enabling CoFUSO
 CoFUSO is turned off by default. To enable it:
-systcl net.mptcp.mptcp_rmt=1
-systcl net.mptcp.mptcp_coding=1
-systcl net.mptcp.mptcp_decoding=1
+#### systcl net.mptcp.mptcp_rmt=1
+#### systcl net.mptcp.mptcp_coding=1
+#### systcl net.mptcp.mptcp_decoding=1
 
 If you want to use FUSO's optimization for the original MPTCP receiving end, enable the receiver optimization:
-sysctl net.mptcp.mptcp_receive_ofo_optimize=1
+#### sysctl net.mptcp.mptcp_receive_ofo_optimize=1
