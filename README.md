@@ -1,5 +1,5 @@
 # CoFUSO
-# CoFUSO's codes
+# CoFUSO's code
 Currently, CoFUSO is a kernel transport implementation which is built upon MPTCP’s Linux implementation (v0.90).
 ## Installation
 At first, please install MPTCP Linux kernel version (v0.90).
